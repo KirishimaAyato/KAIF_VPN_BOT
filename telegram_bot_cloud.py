@@ -11,7 +11,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Токен бота из переменной окружения (для безопасности)
-BOT_TOKEN = os.getenv('BOT_TOKEN', '7250905524:AAGYAFlTIAOV2wxAnUqxdaWCSelNB-N2X94')
+BOT_TOKEN = os.getenv('BOT_TOKEN', '7250905524:AAFUAAwNvhYmch5Mna2o91TdOGYr6d5KqQM')
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Обработчик команды /start - главный экран приветствия"""
